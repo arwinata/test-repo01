@@ -7,5 +7,5 @@
   - name: sample motd
     copy:
       dest: /etc/motd
-      content: "{{ motd_welcome '\n' }}"
+      content: "{{ motd_welcome }}"
       
