@@ -2,7 +2,7 @@
 - name: set motd on linux
   hosts: all
   vars:
-    motd_welcome: 'Welcome to Ansible'
+    motd_welcome: 'Welcome to Ansible \n'
   tasks:
   - name: sample motd
     copy:
