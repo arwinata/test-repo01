@@ -1,0 +1,9 @@
+---
+- name: set motd on linux
+  hosts: all
+
+  tasks:
+  - name: sample motd
+    copy:
+      src: motd.txt
+      dest: /etc/motd
